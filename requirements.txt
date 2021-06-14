@@ -1,7 +1,8 @@
 Flask
-WTForms
-SQLAlchemy
-bcrypt
-requests
-flask-heroku
+Jinja2
+Markdown
+MarkupSafe
+Flask-Cache
 gunicorn
+pyaml
+flask-caching

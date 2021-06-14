@@ -1,36 +1,18 @@
-<p align="center"><img src="https://raw.githubusercontent.com/anfederico/Flaskex/master/media/flaskex-logo.png" width="128px"><p>
+# Flask-Blog
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Python](https://img.shields.io/badge/python-v3.6-blue.svg)
-![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
-[![GitHub Issues](https://img.shields.io/github/issues/anfederico/flaskex.svg)](https://github.com/anfederico/flaskex/issues)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ef2f8f65c67a4043a9362fa6fb4f487a)](https://www.codacy.com/app/RDCH106/Flaskex?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=RDCH106/Flaskex&amp;utm_campaign=Badge_Grade)
-[![Run on Repl.it](https://repl.it/badge/github/anfederico/Flaskex)](https://repl.it/github/anfederico/Flaskex)
+A flask based blog application, using 
 
-<br><br>
+- Python
+- Flask
+- Flask-Cache
+- Markdown
+- Bootstrap (Theme by: [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/))
 
-<p align="center"><img src="https://raw.githubusercontent.com/anfederico/Flaskex/master/media/flaskex-demo.png" width="100%"><p>
+## How do I use this ? 
 
-## Features
-- Encrypted user authorizaton
-- Database initialization
-- New user signup
-- User login/logout
-- User settings
-- Modern user interface
-- Bulma framework
-- Limited custom css/js
-- Easily customizable
+- Clone the repo
+- run ```pip install -r requirements.txt```
+- run ```python ./blog.py```
 
-## Setup
-``` 
-git clone https://github.com/anfederico/Flaskex
-cd Flaskex
-pip install -r requirements.txt
-python app.py
-```
-
-## Contributing
-Please take a look at our [contributing](https://github.com/anfederico/Flaskex/blob/master/CONTRIBUTING.md) guidelines if you're interested in helping!
+It will run the development server in DEBUG mode. Go to: http://localhost:5000/ and check out the blog.
+More details about the blog can be found in the 'Hello World' post.
