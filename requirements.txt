@@ -1,8 +1,0 @@
-Flask
-Jinja2
-Markdown
-MarkupSafe
-Flask-Cache
-gunicorn
-pyaml
-flask-caching
